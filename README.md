@@ -4,11 +4,12 @@ Public release channel for **DSH Remote**, a lightweight Windows client for a
 remote DSH host. The source repository is private; this repository only hosts
 signed installers and the updater feed.
 
-## Download
+## Latest release
 
-Latest installer:
+**0.1.5** — Windows x64 NSIS installer
 
-https://github.com/Trojan-Seahorse/dsh-remote-releases/releases/latest
+- Installer SHA256: `1c136d0dbbb91698b02f4dce624519e8eda2f85df8f40bc0d992c541a0533696`
+- Release page: https://github.com/Trojan-Seahorse/dsh-remote-releases/releases/latest
 
 ## Updater feed
 
@@ -24,5 +25,6 @@ Each release includes:
 - `latest.json`
 - `SHA256SUMS-<version>.txt`
 
-Installer is signed by `Duke Ewell Laboratory`; verify with `Get-AuthenticodeSignature`
-on Windows. Release assets are public; do not post secrets or private host details here.
+Installer is signed by `Duke Ewell Laboratory`; verify with
+`Get-AuthenticodeSignature` on Windows. Release assets are public; do not post
+secrets or private host details here.
